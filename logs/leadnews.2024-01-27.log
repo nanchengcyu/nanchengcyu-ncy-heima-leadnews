@@ -6951,3 +6951,97 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 2024-01-27 21:50:47.272 [http-nio-51802-exec-4] ERROR c.h.common.exception.ExceptionCatch - catch exception:null
 2024-01-27 21:51:10.296 [http-nio-51802-exec-5] ERROR c.h.common.exception.ExceptionCatch - catch exception:null
 2024-01-27 21:51:10.884 [http-nio-51802-exec-6] ERROR c.h.common.exception.ExceptionCatch - catch exception:null
+2024-01-27 23:06:18.979 [Thread-42] WARN  c.a.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2024-01-27 23:06:18.979 [SpringContextShutdownHook] DEBUG o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@349d0836, started on Sat Jan 27 18:51:52 CST 2024, parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4de41af9
+2024-01-27 23:06:18.979 [Thread-11] WARN  c.a.n.c.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-01-27 23:06:18.979 [Thread-42] WARN  c.a.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2024-01-27 23:06:18.982 [Thread-11] WARN  c.a.n.c.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2024-01-27 23:06:19.152 [Thread-38] WARN  c.a.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2024-01-27 23:06:19.152 [Thread-8] WARN  c.a.n.c.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-01-27 23:06:19.153 [SpringContextShutdownHook] DEBUG o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@75b25825, started on Sat Jan 27 21:49:02 CST 2024, parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1c742ed4
+2024-01-27 23:06:19.153 [Thread-38] WARN  c.a.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2024-01-27 23:06:19.154 [Thread-8] WARN  c.a.n.c.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2024-01-27 23:06:19.848 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-01-27 23:06:19.855 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Archaius' from the JMX domain
+2024-01-27 23:06:19.855 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Nacosconfig' from the JMX domain
+2024-01-27 23:06:19.855 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Nacosdiscovery' from the JMX domain
+2024-01-27 23:06:19.855 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Beans' from the JMX domain
+2024-01-27 23:06:19.855 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Caches' from the JMX domain
+2024-01-27 23:06:19.855 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Health' from the JMX domain
+2024-01-27 23:06:19.855 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Info' from the JMX domain
+2024-01-27 23:06:19.855 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Conditions' from the JMX domain
+2024-01-27 23:06:19.855 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Configprops' from the JMX domain
+2024-01-27 23:06:19.855 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Env' from the JMX domain
+2024-01-27 23:06:19.855 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Loggers' from the JMX domain
+2024-01-27 23:06:19.856 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Threaddump' from the JMX domain
+2024-01-27 23:06:19.856 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Metrics' from the JMX domain
+2024-01-27 23:06:19.856 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Scheduledtasks' from the JMX domain
+2024-01-27 23:06:19.856 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Mappings' from the JMX domain
+2024-01-27 23:06:19.856 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Refresh' from the JMX domain
+2024-01-27 23:06:19.856 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Features' from the JMX domain
+2024-01-27 23:06:19.856 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Service-registry' from the JMX domain
+2024-01-27 23:06:19.857 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
+2024-01-27 23:06:19.858 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - [BEAT] removing beat: DEFAULT_GROUP@@leadnews-user:169.254.137.1:51801 from beat map.
+2024-01-27 23:06:19.858 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] public deregistering service DEFAULT_GROUP@@leadnews-user with instance: Instance{instanceId='null', ip='169.254.137.1', port=51801, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-01-27 23:06:19.891 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
+2024-01-27 23:06:19.892 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-01-27 23:06:19.997 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-01-27 23:06:20.002 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Archaius' from the JMX domain
+2024-01-27 23:06:20.003 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Nacosconfig' from the JMX domain
+2024-01-27 23:06:20.003 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Nacosdiscovery' from the JMX domain
+2024-01-27 23:06:20.003 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Beans' from the JMX domain
+2024-01-27 23:06:20.003 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Caches' from the JMX domain
+2024-01-27 23:06:20.003 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Health' from the JMX domain
+2024-01-27 23:06:20.003 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Info' from the JMX domain
+2024-01-27 23:06:20.003 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Conditions' from the JMX domain
+2024-01-27 23:06:20.003 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Configprops' from the JMX domain
+2024-01-27 23:06:20.003 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Env' from the JMX domain
+2024-01-27 23:06:20.003 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Loggers' from the JMX domain
+2024-01-27 23:06:20.004 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Threaddump' from the JMX domain
+2024-01-27 23:06:20.004 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Metrics' from the JMX domain
+2024-01-27 23:06:20.004 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Scheduledtasks' from the JMX domain
+2024-01-27 23:06:20.004 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Mappings' from the JMX domain
+2024-01-27 23:06:20.004 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Refresh' from the JMX domain
+2024-01-27 23:06:20.004 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Features' from the JMX domain
+2024-01-27 23:06:20.004 [SpringContextShutdownHook] DEBUG o.s.b.a.e.jmx.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Service-registry' from the JMX domain
+2024-01-27 23:06:20.005 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registering from Nacos Server now...
+2024-01-27 23:06:20.007 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - [BEAT] removing beat: DEFAULT_GROUP@@leadnews-article:169.254.137.1:51802 from beat map.
+2024-01-27 23:06:20.007 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - [DEREGISTER-SERVICE] public deregistering service DEFAULT_GROUP@@leadnews-article with instance: Instance{instanceId='null', ip='169.254.137.1', port=51802, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-01-27 23:06:20.043 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - De-registration finished.
+2024-01-27 23:06:20.044 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-01-27 23:06:20.211 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-01-27 23:06:20.212 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-01-27 23:06:20.398 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-01-27 23:06:20.398 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-01-27 23:06:23.249 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-01-27 23:06:23.435 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-01-27 23:06:26.280 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-01-27 23:06:26.280 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-01-27 23:06:26.280 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-01-27 23:06:26.281 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-01-27 23:06:26.281 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-01-27 23:06:26.282 [SpringContextShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-01-27 23:06:26.283 [SpringContextShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2024-01-27 23:06:26.283 [SpringContextShutdownHook] INFO  c.a.n.c.identify.CredentialWatcher - [null] CredentialWatcher is stopped
+2024-01-27 23:06:26.284 [SpringContextShutdownHook] INFO  c.a.n.c.identify.CredentialService - [null] CredentialService is freed
+2024-01-27 23:06:26.284 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-01-27 23:06:26.285 [SpringContextShutdownHook] INFO  o.s.j.e.a.AnnotationMBeanExporter - Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+2024-01-27 23:06:26.286 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-27 23:06:26.291 [SpringContextShutdownHook] WARN  o.s.b.f.s.DisposableBeanAdapter - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2024-01-27 23:06:26.444 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-01-27 23:06:26.458 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-01-27 23:06:26.468 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-01-27 23:06:26.468 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-01-27 23:06:26.468 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-01-27 23:06:26.470 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-01-27 23:06:26.470 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-01-27 23:06:26.470 [SpringContextShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-01-27 23:06:26.470 [SpringContextShutdownHook] WARN  com.alibaba.nacos.client.naming - [NamingHttpClientManager] Destruction of the end
+2024-01-27 23:06:26.471 [SpringContextShutdownHook] INFO  c.a.n.c.identify.CredentialWatcher - [null] CredentialWatcher is stopped
+2024-01-27 23:06:26.471 [SpringContextShutdownHook] INFO  c.a.n.c.identify.CredentialService - [null] CredentialService is freed
+2024-01-27 23:06:26.471 [SpringContextShutdownHook] INFO  com.alibaba.nacos.client.naming - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-01-27 23:06:26.473 [SpringContextShutdownHook] INFO  o.s.j.e.a.AnnotationMBeanExporter - Could not unregister MBean [com.github.tobato.fastdfs.domain.conn:name=fdfsConnectionPool,type=FdfsConnectionPool] as said MBean is not registered (perhaps already unregistered by an external process)
+2024-01-27 23:06:26.473 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-01-27 23:06:26.477 [SpringContextShutdownHook] WARN  o.s.b.f.s.DisposableBeanAdapter - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2024-01-27 23:06:26.614 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-01-27 23:06:26.627 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
