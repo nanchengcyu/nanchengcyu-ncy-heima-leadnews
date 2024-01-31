@@ -1,4 +1,4 @@
-package cn.nanchengyu.apis.article;
+package cn.nanchengyu.tess4j.apis.article;
 
 import com.heima.model.article.dtos.ArticleDto;
 import com.heima.model.common.dtos.ResponseResult;

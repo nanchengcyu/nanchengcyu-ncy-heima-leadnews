@@ -1,4 +1,4 @@
-package cn.nanchengyu.freemarker.entity;
+package cn.nanchengyu.tess4j.freemarker.entity;
 
 import lombok.Data;
 

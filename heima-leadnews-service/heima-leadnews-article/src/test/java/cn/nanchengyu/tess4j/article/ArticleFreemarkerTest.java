@@ -1,4 +1,4 @@
-package cn.nanchengyu.article;
+package cn.nanchengyu.tess4j.article;
 
 
 import com.alibaba.fastjson.JSONArray;

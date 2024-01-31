@@ -1,6 +1,6 @@
-package cn.nanchengyu.freemarker;
+package cn.nanchengyu.tess4j.freemarker;
 
-import cn.nanchengyu.freemarker.entity.Student;
+import cn.nanchengyu.tess4j.freemarker.entity.Student;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
 import freemarker.template.TemplateException;
@@ -9,7 +9,6 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-import org.springframework.ui.Model;
 
 import java.io.FileWriter;
 import java.io.IOException;

@@ -1,6 +1,6 @@
-package cn.nanchengyu.freemarker.controller;
+package cn.nanchengyu.tess4j.freemarker.controller;
 
-import cn.nanchengyu.freemarker.entity.Student;
+import cn.nanchengyu.tess4j.freemarker.entity.Student;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

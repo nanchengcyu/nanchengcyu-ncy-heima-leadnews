@@ -1,6 +1,6 @@
 package com.heima.article.feign;
 
-import cn.nanchengyu.apis.article.IArticlesClient;
+import cn.nanchengyu.tess4j.apis.article.IArticlesClient;
 import com.heima.article.service.ApArticleService;
 import com.heima.model.article.dtos.ArticleDto;
 import com.heima.model.common.dtos.ResponseResult;

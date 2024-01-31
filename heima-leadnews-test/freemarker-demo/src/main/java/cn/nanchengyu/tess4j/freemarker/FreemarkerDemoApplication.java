@@ -1,4 +1,4 @@
-package cn.nanchengyu.freemarker;
+package cn.nanchengyu.tess4j.freemarker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
