@@ -1,6 +1,6 @@
-package cn.nanchengyu.kafka.listener;
+package cn.nanchengyu.xxljob.listener;
 
-import cn.nanchengyu.kafka.pojo.User;
+import cn.nanchengyu.xxljob.pojo.User;
 import com.alibaba.fastjson.JSON;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;

@@ -1,4 +1,4 @@
-package cn.nanchengyu.kafka.sample;
+package cn.nanchengyu.xxljob.sample;
 
 /**
  * ClassName: ConssumerQuickStart

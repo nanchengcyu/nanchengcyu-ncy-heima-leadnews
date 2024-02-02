@@ -19,7 +19,8 @@ import java.util.Date;
 
 @Data
 @TableName("ap_article")
-public class ApArticle implements Serializable {
+public class
+ApArticle implements Serializable {
 
     @TableId(value = "id",type = IdType.ID_WORKER)
     private Long id;

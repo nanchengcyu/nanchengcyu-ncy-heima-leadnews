@@ -1,6 +1,6 @@
-package cn.nanchengyu.kafka.controller;
+package cn.nanchengyu.xxljob.controller;
 
-import cn.nanchengyu.kafka.pojo.User;
+import cn.nanchengyu.xxljob.pojo.User;
 import com.alibaba.fastjson.JSON;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;

@@ -1,4 +1,4 @@
-package cn.nanchengyu.kafka;
+package cn.nanchengyu.xxljob;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

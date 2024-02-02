@@ -1,4 +1,4 @@
-package cn.nanchengyu.kafka.pojo;
+package cn.nanchengyu.xxljob.pojo;
 
 import lombok.Data;
 

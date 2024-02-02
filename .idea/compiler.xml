@@ -8,13 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="heima-file-starter" />
         <module name="freemarker-demo" />
+        <module name="kafka-demo (2)" />
         <module name="heima-leadnews-wemedia-gateway" />
+        <module name="kafka-demo (1)" />
         <module name="heima-leadnews-wemedia" />
         <module name="tess4j-demo" />
         <module name="heima-leadnews-feign-api" />
         <module name="heima-leadnews-article" />
         <module name="heima-leadnews-user" />
-        <module name="kafka-demo" />
         <module name="es-init" />
         <module name="heima-leadnews-utils" />
         <module name="heima-leadnews-app-gateway" />
@@ -27,6 +28,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="heima-leadnews-apis" target="1.8" />
+      <module name="kafka-demo" target="1.8" />
       <module name="minio-demo" target="1.8" />
       <module name="tess4j-demo (1)" target="1.8" />
       <module name="tess4j-demo (2)" target="1.8" />
@@ -55,6 +57,8 @@
       <module name="heima-leadnews-wemedia" options="-parameters" />
       <module name="heima-leadnews-wemedia-gateway" options="-parameters" />
       <module name="kafka-demo" options="-parameters" />
+      <module name="kafka-demo (1)" options="-parameters" />
+      <module name="kafka-demo (2)" options="-parameters" />
       <module name="minio-demo" options="-parameters" />
       <module name="mongo-demo" options="-parameters" />
       <module name="tess4j-demo" options="-parameters" />

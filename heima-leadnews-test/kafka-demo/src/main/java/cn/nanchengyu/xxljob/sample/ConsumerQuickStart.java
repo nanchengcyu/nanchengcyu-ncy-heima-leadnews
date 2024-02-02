@@ -1,4 +1,4 @@
-package cn.nanchengyu.kafka.sample;
+package cn.nanchengyu.xxljob.sample;
 
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
