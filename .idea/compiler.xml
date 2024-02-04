@@ -17,6 +17,7 @@
         <module name="heima-leadnews-feign-api" />
         <module name="heima-leadnews-article" />
         <module name="heima-leadnews-user" />
+        <module name="java-thread-study" />
         <module name="es-init" />
         <module name="heima-leadnews-utils" />
         <module name="heima-leadnews-app-gateway" />
@@ -58,6 +59,7 @@
       <module name="heima-leadnews-utils" options="-parameters" />
       <module name="heima-leadnews-wemedia" options="-parameters" />
       <module name="heima-leadnews-wemedia-gateway" options="-parameters" />
+      <module name="java-thread-study" options="-parameters" />
       <module name="kafka-demo" options="-parameters" />
       <module name="kafka-demo (1)" options="-parameters" />
       <module name="kafka-demo (2)" options="-parameters" />
